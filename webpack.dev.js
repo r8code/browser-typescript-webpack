@@ -14,7 +14,7 @@ module.exports= merge(common,{
 	},
 	plugins:[
 		new HtmlWebPackPlugin({
-			template: "./src/dev.html",
+			template: "./src/template/dev.html",
 			filename: "index.html"
 		})
 	]
